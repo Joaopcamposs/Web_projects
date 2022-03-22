@@ -1,0 +1,35 @@
+Tela1 a 4
+O conteúdo central fica centralizado na tela
+A altura da página é a altura da janela (sem barra de rolagem vertical)
+A largura não interfere no conteúdo a não ser pelo fato de aproximar os itens no cabeçalho e no rodapé (antes do verde)
+A imagem de fundo ocupa toda a largura da janela (a altura não é controlada, se for maior sobra e se for menor falta mesmo)
+    Se a tela diminui de largura a imagem de fundo diminui junto
+    A proporção da imagem se mantém!
+
+Tela5
+Mostra todos os links da página (não importa para onde vão, mas devem existir na prova)
+
+Tela6
+Tamanhos das fontes na página em px
+
+Deve existir um formulário com os três campos e o botão Sign up
+
+Log in e Sign up são "botões"
+
+Search Tumblr é um campo de busca (a lupa não some quando se clica nesse campo)
+
+Usem como fonte HelveticaNeue, Helvetica, Arial, sans-serif
+
+Parte verde tem 45px de altura
+
+O t no canto superior esquerdo é animado quando o mouse pára nele mudando de cores rapidamente
+tem uma imagem para isso (animate.png)
+
+Ignorem as bolinhas no canto esquerdo!
+
+Azul do botão
+#00B8FF
+
+Verde
+#00CF35
+
