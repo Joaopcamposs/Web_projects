@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Design en 4 minutos</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <header id="header">
+    <img id="logo" src="imagens/web-design-in-4-minutes.png" alt="Web Design in 4 minutes logo">
+    <h1>Web Design in 4 minutes</h1>
+    <p>
+      <a href="http://jgthms.com" target="_blank">por Jeremy Thomas</a>
+    </p>
+  </header>
+
+  <main>
+    <section id="start">
+      <p>Digamos que você tem um produto, um portfolio, ou apenas uma ideia que você quer compartilhar com todos no seu
+        <em>próprio</em> website. Antes de publicá-lo na internet, você quer deixá-lo atraente, profissional ou pelo
+        menos <em>decente</em> para ser visto.</p>
+      <p>Qual a primeira coisa em que você deve trabalhar?</p>
+    </section>
+
+    <section id="content">
+      <h2>Conteúdo</h2>
+      <p>O propósito do <strong>design</strong> é melhorar a apresentação do conteúdo em que ele é aplicado. Pode
+        parecer óbvio, mas sendo o conteúdo o elemento <strong>primário</strong> de um website, ele não pode ser deixado
+        para depois.</p>
+      <p>Conteúdo escrito, como o parágrafo que você está lendo, Written content, like the paragraph you're currently
+        reading, compõe mais de 90% da Web. Estilizar esse conteúdo textual vai por um longo caminho.</p>
+      <p>Vamos assumir que você finalizou o conteúdo que quer publicar e acabou de criar um arquivo
+        <code>estilo.css</code> vazio, qual é a primeira regra que você pode escrever?</p>
+    </section>
+
+    <section id="centering">
+      <h2>Centralizar</h2>
+      <p>Linhas de texto longas pode ser difícil de analisar e portanto difícil de <strong>ler</strong>. Definir um
+        limite de caracteres por linha aumenta muito a facilidade de leitura e o apelo de um bocado de texto.</p>
+      <pre><span class="selector">body</span> {
+  <span class="attribute">margin</span>: <span class="number">0</span> auto;
+  <span class="attribute">max-width</span>: <span class="number">50</span><span class="unit">em</span>;
+}</pre>
+      <p>Depois de estilizar os <em>blocos</em> de texto, que tal estilizar o próprio texto?</p>
+    </section>
+
+    <section id="font-family">
+      <h2>Família de Fontes</h2>
+      <p>A fonte padrão do navegador é a <code>"Times"</code>, que pode parecer sem graça (principalmente porque é uma
+        fonte "sem estilo"). Trocar por uma fonte <strong>sans-serif</strong> como <code>"Helvetica"</code> ou
+        <code>"Arial"</code> pode melhorar drasticamente a aparência da sua página.</p>
+      <pre><span class="selector">body</span> {
+  <span class="attribute">font-family</span>: <span class="string">"Helvetica"</span>, <span class="string">"Arial"</span>, sans-serif;
+}</pre>
+      <p><em>Se você quiser continuar usando uma fonte com serifa, tente a <code>"Georgia"</code>.</em></p>
+      <p>Agora que isso tornou o texto mais <em>atraente</em>, vamos também torná-lo mais fácil de ler.</p>
+    </section>
+
+    <section id="spacing">
+      <h2>Espaçamento</h2>
+      <p>Quando uma página parece "quebrada" para um usuário, normalmente é um problema de <strong>espaçamento</strong>.
+        Deixar espaço tanto <em>ao redor</em> quanto <em>dentro</em> do seu conteúdo pode melhorar a aparência da sua
+        página.</p>
+      <pre><span class="selector">body</span> {
+  <span class="attribute">line-height</span>: <span class="number">1.5</span>;
+  <span class="attribute">padding</span>: <span class="number">4</span><span class="unit">em</span> <span class="number">1</span><span class="unit">em</span>;
+}
+
+<span class="selector">h2</span> {
+  <span class="attribute">margin-top</span>: <span class="number">1</span><span class="unit">em</span>;
+  <span class="attribute">padding-top</span>: <span class="number">1</span><span class="unit">em</span>;
+}</pre>
+      <p>Mesmo que o layout tenha melhorado bastande até agora, vamos aplicar mais algumas mudanças sutis.</p>
+    </section>
+
+    <section id="color-contrast">
+      <h2>Cor &amp; contraste</h2>
+      <p>Texto preto em um fundo branco pode ser desagradável para os olhos. Optar por uma tonalidade mais leve de preto
+        para o texto do corpo deixa a página mais <strong>confortável</strong> para ler.</p>
+      <pre><span class="selector">body</span> {
+  <span class="attribute">color</span>: <span class="number">#555</span>;
+}</pre>
+      <p>E para manter um nível decente de <strong>contraste</strong>, vamos escolher uma tonalidade mais escura para
+        palavras <strong>importantes</strong></p>
+      <pre><span class="selector">h1</span>,
+<span class="selector">h2</span>,
+<span class="selector">strong</span> {
+  <span class="attribute">color</span>: <span class="number">#333</span>;
+}</pre>
+      <p>Enquanto a maior parte da página melhorou visualmente, alguns elementos (como os trechos de código) ainda
+        parecem fora de lugar.</p>
+    </section>
+
+    <section id="balance">
+      <h2>Balanço</h2>
+      <p>Bastam apenas alguns toques adicionais para corrigir o balanço da página:</p>
+      <pre><span class="selector">code</span>,
+<span class="selector">pre</span> {
+  <span class="attribute">background</span>: <span class="number">#eee</span>;
+}
+
+<span class="selector">code</span> {
+  <span class="attribute">padding</span>: <span class="number">2</span>px <span class="number">4</span>px;
+  <span class="attribute">vertical-align</span>: text-bottom;
+}
+
+<span class="selector">pre</span> {
+  <span class="attribute">padding</span>: <span class="number">1</span>em;
+}</pre>
+      <p>A essa altura você deve querer que sua página se destaque entre as demais e dar-lhe uma identidade.</p>
+    </section>
+
+    <section id="primary-color">
+      <h2>Cor primária</h2>
+      <p>A maioria das marcas tem uma <strong>cor primária</strong> que acentua/realça o visual. Em um website, esse
+        realce pode ser usado para fornecer ênfase para elementos interativos, como <strong>links</strong>.</p>
+      <pre><span class="selector">a</span> {
+  <span class="attribute">color</span>: <span class="number">#e81c4f</span>;
+}</pre>
+      <p>Mas para manter o balanço, vamos precisar de cores adicionais.</p>
+    </section>
+
+    <section id="secondary-colors">
+      <h2>Cores Secundárias</h2>
+      <p>A cor de realce pode ser complementada com mais tons <em>sutis</em>, a serem usados em bordas, fundos ou até
+        mesmo o corpo do texto.</p>
+      <pre><span class="selector">body</span> {
+  <span class="attribute">color</span>: <span class="number">#566b78</span>;
+}
+
+<span class="selector">code</span>,
+<span class="selector">pre</span> {
+  <span class="attribute">background</span>: <span class="number">#f5f7f9</span>;
+  <span class="attribute">border-bottom</span>: <span class="number">1</span><span class="unit">px</span> solid <span class="number">#d8dee9</span>;
+  <span class="attribute">color</span>: <span class="number">#a7adba</span>;
+}
+
+<span class="selector">pre</span> {
+  <span class="attribute">border-left</span>: <span class="number">2</span><span class="unit">px</span> solid <span class="number">#69c</span>;
+}</pre>
+      <p>Tendo alterado os tons, porque não alterar as formas</a>...</p>
+    </section>
+
+    <section id="custom-font">
+      <h2>Fonte personalizada</h2>
+      <p>Como o texto é o conteúdo principal de uma página web, usar uma <strong>fonte customizada</strong> dá à página
+        uma identidade ainda maior.</p>
+      <p>Podemos embutir nossa própria webfont o usar um serviço online como <a href="https://typekit.com"
+          target="_blank">Typekit</a>, vamos usar <code>"Roboto"</code> do serviço gratuito <a
+          href="https://fonts.google.com" target="_blank">Google Fonts</a>:</p>
+      <pre><span class="selector">body</span> {
+  <span class="attribute">font-family</span>: <span class="string">"Roboto"</span>, <span class="string">"Helvetica"</span>, <span class="string">"Arial"</span>, sans-serif;
+}</pre>
+      <p>Depois de melhorar a identidade através do <em>texto</em>, que tal adicionar mil palavras...</p>
+    </section>
+
+    <section id="images">
+      <h2>
+        <img src="imagens/images.png" alt="Spongebob rainbow meme saying 'Images'">
+      </h2>
+      <p>Gráficos e ícones podem ser usados como ornamentos para auxiliar o conteúdo ou podem ter um papel mais ativo na
+        mensagem que eles transmitem.</p>
+      <p>Vamos melhorar nosso cabeçalho com uma boa <strong>imagem de fundo</strong> do <a
+          href="https://unsplash.com/photos/qH36EgNjPJY" target="_blank">Unsplash</a></p>
+      <pre><span class="selector">header</span> {
+  <span class="attribute">background-color</span>: <span class="number">#263d36</span>;
+  <span class="attribute">background-image</span>: url(<span class="string">"/imagens/header.jpg"</span>);
+  <span class="attribute">background-position</span>: center top;
+  <span class="attribute">background-repeat</span>: no-repeat;
+  <span class="attribute">background-size</span>: cover;
+  <span class="attribute">line-height</span>: <span class="number">1.2</span>;
+  <span class="attribute">padding</span>: <span class="number">10</span><span class="unit">vw</span> <span class="number">2</span><span class="unit">em</span>;
+  <span class="attribute">text-align</span>: center;
+}</pre>
+      <p>Vamos também adicionar um <strong>logo</strong></p>
+      <pre><span class="selector">header img</span> {
+  <span class="attribute">display</span>: inline-block;
+  <span class="attribute">height</span>: <span class="number">120</span><span class="unit">px</span>;
+  <span class="attribute">vertical-align</span>: top;
+  <span class="attribute">width</span>: <span class="number">120</span><span class="unit">px</span>;
+}</pre>
+      <p>Aproveitemos a oportunidade para melhorar os estilos do texto.</p>
+      <pre><span class="selector">header h1</span> {
+  <span class="attribute">color</span>: white;
+  <span class="attribute">font-size</span>: <span class="number">2.5</span><span class="unit">em</span>;
+  <span class="attribute">font-weight</span>: <span class="number">300</span>;
+}
+
+<span class="selector">header a</span> {
+  <span class="attribute">border</span>: <span class="number">1</span><span class="unit">px</span> solid <span class="number">#e81c4f</span>;
+  <span class="attribute">border-radius</span>: <span class="number">290486</span><span class="unit">px</span>;
+  <span class="attribute">color</span>: white;
+  <span class="attribute">font-size</span>: <span class="number">0.6</span><span class="unit">em</span>;
+  <span class="attribute">letter-spacing</span>: <span class="number">0.2</span><span class="unit">em</span>;
+  <span class="attribute">padding</span>: <span class="number">1</span><span class="unit">em</span> <span class="number">2</span><span class="unit">em</span>;
+  <span class="attribute">text-transform</span>: uppercase;
+  <span class="attribute">text-decoration</span>: none;
+  <span class="attribute">transition</span>: none <span class="number">200</span><span class="unit">ms</span> ease-out;
+  <span class="attribute">transition-property</span>: color, background;
+}
+
+<span class="selector">header a:hover</span> {
+  <span class="attribute">background</span>:  <span class="number">#e81c4f</span>;
+  <span class="attribute">color</span>: white;
+}</pre>
+      <p><a href="#header">E voil&agrave;</a>!</p>
+      <p>Nós criamos um página decente em apenas alguns minutos, seguindo princípios básicos de web design.
+    </section>
+    <footer>
+      <a class="button" href="https://twitter.com/jgthms" target="_blank">Criado por <strong>@jgthms</strong></a>
+    </footer>
+  </main>
+
+</body>
+
+</html>
