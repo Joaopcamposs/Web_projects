@@ -1,0 +1,42 @@
+Tela1 e Tela2
+O conteúdo fica centralizado na tela
+A barra de rolagem vertical aparece normalmente
+
+Tela3
+A altura da página não altera o conteúdo, apenas a barra de rolagem vai aumentar
+
+Tela4
+Até uma largura de 910px a aparência não muda
+
+Tela5 
+Abaixo dessa largura o visual muda
+    os celulares somem do conteúdo
+    os links no rodapé se reorganizam
+
+Tela6
+Esse visual alterado permanece até a menor largura possível
+
+Tela8
+Mostra todos os links da página (não importa para onde vão, mas devem existir na prova)
+
+Tela9
+Tamanhos das fontes na página em px
+
+Deve existir um formulário com os quatro campos e o botão cadastre-se
+
+Entrar com o Facebook e Cadastre-se são "botões"
+
+Os botões e os campos do formulário tem cantos arredondados
+
+Usem como fonte Roboto, Helvetica, Arial, sans-serif 
+
+Cor de fundo da tela e dos campos do formulário
+#FAFAFA
+
+Cor de fundo do formulário e do texto nos botões Entrar com o Facebook e Cadastre-se
+#FFFFFF
+
+Cor botão Entrar com o Facebook e Cadastre-se
+#3897F0
+
+As linhas ao lado do OU foram feitas com uma div de 1px de altura e cor #FAFAFA

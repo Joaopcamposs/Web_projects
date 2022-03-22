@@ -1,0 +1,180 @@
+body {
+    width: 100%;
+    height: 100vh;   /* Ah danado */
+    font-family: Roboto, Helvetica, Arial, sans-serif ;
+    font-size: 14px;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    height: 740px;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+ul {
+    width: 810px;
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: #ac9cac;
+}
+
+#politica > a {
+    font-weight: bold;
+    margin-right: 0;
+}
+
+#direitameio > p > a {
+    color: #639af2;
+}
+
+li > a {
+    color: #003569;
+    font-weight: bold;
+}
+
+#direita {
+    width: 340px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#direitacima {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+#direitameio {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+#esquerda > img {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#direitabaixo > img {
+    width: 135px;
+    margin-top: 20px;
+}
+
+#direitacima > p {
+    text-align: center;
+}
+
+footer {
+    height: 80px;
+}
+
+input[type="text"] {
+    background-color: #FAFAFA;
+    width: 260px;
+    line-height: 2.5;
+    border: 1px solid #F0F0F0;
+    border-radius: 3px;
+    text-indent: 8px;
+    margin-bottom: 7px;
+    font-size: 13px;
+}
+
+input[type="submit"] {
+    width: 260px;
+    line-height: 2.2;
+    background-color: #3897F0;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+}
+
+button {
+    width: 260px;
+    line-height: 2.2;
+    text-indent: 25px;
+    background: url("../images/logo_facebook.png") no-repeat 50px 6px;
+    background-color: #3897F0;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+}
+
+#logo {
+    margin-top: 35px;
+}
+
+#cadastrese {
+    width: 240px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    color: #ac9cac;
+    font-weight: bold;
+}
+
+#politica {
+    width: 240px;
+    margin-top: 15px;
+    color: #ac9cac;
+}
+
+#obtenha {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#ou {
+    font-size: 13px;
+}
+
+#instaface {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 910px) {
+    #esquerda {
+        display: none;
+    }
+    
+    ul {
+        width: 340px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    li {
+        margin-bottom: 10px;
+    }
+}
