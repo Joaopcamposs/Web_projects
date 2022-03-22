@@ -1,0 +1,55 @@
+Telas 1 e 2 (tela totalmente expandida)
+O conteúdo central fica centralizado horizontalmente na tela
+
+Telas 3, 4
+O conteúdo se adapta para o espaço menor mas o design permanece
+
+Tela 5
+Quebra o design inicial para uma tela menor  (770px)
+
+Telas 6 e 7
+Menor tela possível
+
+Tela 8
+Todos os links da página
+
+Tela 9
+Os tamanhos das fontes da página (apenas um não está medido em "ems" e está em px)
+O tamanho principal da fonte no documento é 16px
+Usem como fonte 'Roboto', sans-serif
+
+
+Deve existir um formulário com os quatro campos de entrada, os checkboxes e o botão Create a Unity ID
+
+Create a Unity ID e Already have a Unity ID são "botões"
+
+
+Cor da fonte A
+#222C37
+
+Cor da fonte B
+#5A5A5B
+
+Cor da fonte C
+#8E8F8F
+
+Cor da fonte D
+#202020
+
+Cor da fonte E
+#5A5A5B
+
+Cor da fonte azul (links)
+#26C6DA
+
+Cor do botão Create a Unity ID
+#8AC249
+
+Cor de fundo conteúdo central
+#F5F8F9
+
+Cor de fundo cabeçalho, rodapé e campos de entrada
+#FFFFFF
+
+Cor de fundo do recaptcha
+#F9F9F9

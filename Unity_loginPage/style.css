@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    font-size: 16px;
+    position: relative;
+    background-color: #F5F8F9;
+}
+
+.wrapper-header {
+    height: 56px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.main-header {
+    width: 100%;
+    padding: 16px;
+}
+
+#topo {
+    max-width: 1280px;
+    height: 56px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    background-color: #F5F8F9;
+    background-size: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 300px;
+}
+
+#create_text {
+    color: #222C37;
+    font-size: 1.75em;
+}
+
+a {
+    text-decoration: none;
+    color: #26C6DA;
+}
+
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper-field {
+    width: 50%;
+    padding: 16px;
+}
+
+.txtForm {
+    color: #5A5A5B;
+    font-weight: bold;
+    font-size: 1.12em;
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color: #FFFFFF;
+    border: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+#btnCreate {
+    background-color: #8AC249;
+    color: white;
+    border: 1px solid;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#btnAlready {
+    background-color: #F5F8F9;
+    color: #5A5A5B;
+    border: 1px solid;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#fot_left {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#fot_right {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.wrapper-footer {
+    width: 100% !important;
+    margin: 0 !important;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-size: 0.87em;
+    color: #5A5A5B;
+    padding: 16px 0;
+
+}
+
+#captcha {
+    /*margin: 30px 0;*/
+    /*text-align: center;*/
+    width: 100%;
+}
+
+.social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.facebook {
+    margin-left: 16px
+}
+
+@media only screen and (max-width: 600px) {
+    .social {
+        display: block;
+        text-align: center;
+    }
+
+    .facebook {
+        margin-left: 0;
+    }
+
+    .wrapper-field {
+        width: 100%;
+    }
+
+    .align {
+        text-align: left;
+    }
+}
