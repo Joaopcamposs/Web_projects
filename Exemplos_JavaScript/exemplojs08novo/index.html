@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+    <script src="codigo.js"></script>
+    <title>Exemplo JavaSript 8</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">Bookorama</h1>
+                <p>Livros para Ninjas</p>
+                <form>
+                    <input type="text" id="nome_buscar" placeholder="Buscar livros...">
+                </form>
+            </div>
+        </header>
+
+        <div id="book-list">
+            <h2 class="title">Livros para Ler</h2>
+
+            <ul id="livros">
+                <li>
+                    <span class="nome">A volta dos que não foram</span>
+                    <span class="delete">remover</span>
+                </li>
+                <li>
+                    <span class="nome">Venda areia na praia!</span>
+                    <span class="delete">remover</span>
+                </li>
+            </ul>
+        </div>
+        <form name="inserir" action="" method="get" id="add-book">
+            <input type="checkbox" id="hide">
+            <label for="hide">Esconder todos os livros</label>
+            <input type="text" id="nome_inserir" placeholder="Adicionar um livro...">
+            <button id="binserir" type="button">Inserir</button>
+        </form>
+
+        <div id="tabbed-content">
+            <ul class="tabs">
+                <li id="sobre" class="active">Sobre</li>
+                <li id="contato">Contato</li>
+            </ul>
+            <div class="panel active" id="divsobre">
+                <p>Content for about tab...</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id nunc porta urna ornare rhoncus. Ut convallis ante at.</p>
+            </div>
+            <div class="panel" id="divcontato">
+                <p>Content for contact tab...</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id nunc porta urna ornare rhoncus. Ut convallis ante at.</p>
+            </div>
+        </div>
+    </div>    
+</body>
+
+</html>
