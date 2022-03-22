@@ -1,0 +1,45 @@
+/*PARTE A*/
+
+/*
+[data-vegetal] {
+    color: green;
+}
+*/
+
+/*
+[data-vegetal="liquido"] {
+    background-color: goldenrod;
+}
+*/
+
+/*
+[data-vegetal~="apimentada"] {
+    color: red;
+}
+*/
+
+
+/*PARTE B*/
+
+/*
+[lang|=fr] {
+    font-weight: bold;
+}
+*/
+
+/*
+[data-quantidade^="opcional"] {
+    opacity: 0.5;
+}
+*/
+
+/*
+[data-quantidade$="kg"] {
+    font-weight: bold;
+}
+*/
+
+/*
+[data-vegetal*="nao apimentada"] {
+    color: green;
+}*/

@@ -1,0 +1,30 @@
+.caixa-vertical {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    flex-direction: column;
+}
+
+.caixa-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.espacador {
+    flex: auto;
+    background-color: deepskyblue;
+}
+
+.elemento-centralizado {
+    flex: none;
+    background-color: white;
+}
+
+p {
+    width: 170px;
+    height: 2rem;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    line-height: 2;
+}

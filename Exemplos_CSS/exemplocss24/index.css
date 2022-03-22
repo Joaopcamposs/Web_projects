@@ -1,0 +1,146 @@
+/* espaçamento */
+
+/*
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+*/
+
+/*
+thead th:nth-child(1) {
+    width: 30%;
+}
+*/
+
+/*
+thead th:nth-child(2) {
+    width: 20%;
+}
+*/
+
+/*
+thead th:nth-child(3) {
+    width: 15%;
+}
+*/
+
+/*
+thead th:nth-child(4) {
+    width: 35%;
+}
+*/
+
+/*
+th,
+td {
+    padding: 20px;
+    border: 1px solid black;
+}
+*/
+
+
+/* tipografia */
+
+/*
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+*/
+
+/*
+thead th,
+tfoot th {
+    font-family: 'Rock Salt', cursive;
+}
+*/
+
+/*
+th {
+    letter-spacing: 2px;
+}
+*/
+
+/*
+td {
+    letter-spacing: 1px;
+}
+*/
+
+/*
+tbody td {
+    text-align: center;
+}
+*/
+
+/*
+tfoot th {
+    text-align: right;
+}
+*/
+
+
+/* imagens e cores */
+
+/*
+thead,
+tfoot {
+    background: url(imagens/leopardskin.jpg);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+*/
+
+/*
+thead th,
+tfoot th,
+tfoot td {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.5)));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+    border: 3px solid purple;
+}
+*/
+
+
+/* listrado */
+
+/*
+tbody tr:nth-child(odd) {
+    background-color: #ff33cc;
+}
+*/
+
+/*
+tbody tr:nth-child(even) {
+    background-color: #e495e4;
+}
+*/
+
+/*
+tbody tr {
+    background-image: url(imagens/noise.png);
+}
+*/
+
+/*
+table {
+    background-color: #ff33cc;
+}
+*/
+
+
+/* caption */
+
+/*
+caption {
+    font-family: 'Rock Salt', cursive;
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;   essa eh NOVA 
+    color: #666;
+    text-align: right;
+    letter-spacing: 1px;
+}
+*/

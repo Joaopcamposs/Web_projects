@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+    border: 0;
+}
+
+body {
+	background: url(layout_grid.gif) top left no-repeat;
+}
+
+#tamanho {
+    width: 400px;
+    font-size: 2em;
+    background-color: beige;
+}
+
+p {
+/*    padding: 20px;*/
+/*    margin: 10px;*/
+/*    border: 1px solid black;*/
+/*    width: 200px; */
+}

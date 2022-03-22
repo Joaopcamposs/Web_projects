@@ -1,0 +1,35 @@
+/* Estilos Gerais */
+/*
+body {
+    margin: 0;
+}
+*/
+
+/*
+#wrapper * {
+    padding: 20px;
+    font-size: 20px;
+    border: 20px solid rgba(0, 0, 0, 0.5);
+}
+*/
+
+/* Caixas Específicas */
+/*
+#wrapper header,
+#wrapper footer {
+    background-color: blue;
+    color: white;
+}
+*/
+
+/*
+#wrapper main {
+    background-color: yellow;
+}
+*/
+
+/*
+#wrapper header {}
+
+#wrapper footer {}
+*/

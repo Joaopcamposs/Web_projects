@@ -1,0 +1,57 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    width: 70%;
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+button {
+    font-size: 18px;
+    line-height: 1.5;
+    width: 15%;
+}
+
+/*  PARTE A  */
+div {
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*  PARTE B  */
+/*
+div {
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-start;
+}
+*/
+
+/*  PARTE C  */
+/*
+div {
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+*/
+
+/*  PARTE D  */
+/*
+div {
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+}
+*/

@@ -1,0 +1,27 @@
+#d1 {
+    width: 300px;
+    padding: 20px;
+    margin: 10px auto;
+    line-height: 3;
+    background-color: #f66;
+    text-align: center;
+    border: 20px solid black;
+    background-clip: padding-box;
+    border-image-source: url(https://mdn.mozillademos.org/files/13060/border-image.png);
+    border-image-slice: 40;
+    border-image-repeat: round;
+}
+
+#d2 {
+    width: 300px;
+    padding: 20px;
+    margin: 10px auto;
+    line-height: 3;
+    text-align: center;
+    border: 20px solid black;
+    background-clip: padding-box;
+    -o-border-image: url('border-florid.svg') round;
+    border-image: url('border-florid.svg') round;
+    border-image-slice: calc(50 / 184 * 100%) calc(80 / 284 * 100%) fill;
+    border-image-width: 30px 48px;
+}

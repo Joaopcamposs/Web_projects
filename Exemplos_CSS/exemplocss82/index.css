@@ -1,0 +1,56 @@
+/*  PARTE A  */
+/*
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+*/
+
+/*  PARTE B  */
+/*
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+*/
+
+/*  PARTE C  */
+/*
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+*/
+
+/*  PARTE D  */
+/*
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+*/

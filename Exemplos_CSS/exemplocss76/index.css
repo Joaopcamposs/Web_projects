@@ -1,0 +1,38 @@
+div {
+    background-color: lightgreen;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+/*
+#imagem2 img {
+    transform: rotate(90deg); 
+    transform-origin: bottom left;
+}
+*/
+
+/*
+#imagem3 img {
+	transform: skewx(10deg) translatex(150px);
+	transform-origin: bottom left;
+}
+*/
+
+/*
+#imagem4 img {
+    transform: rotate(30deg);
+}
+*/
+
+/*
+#imagem5 img {
+    transform: rotate(30deg) translateX(100px);
+}
+*/
+
+/*
+#imagem6 img {
+    transform: translateX(100px) rotate(30deg);
+}
+*/

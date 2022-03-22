@@ -1,0 +1,67 @@
+/* Parte A */
+p {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: yellow;
+/*    Parte B*/
+/* 	background-image: url(https://mdn.mozillademos.org/files/13026/fire-ball-icon.png);*/
+}
+
+/*  Parte C  */
+/*
+p {
+	font-family: sans-serif;
+	padding: 20px;
+	background-color: yellow;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(yellow), color-stop(50%, #dddd00), to(orange));
+	background-image: linear-gradient(to bottom, yellow, #dddd00 50%, orange);
+	background-repeat: no-repeat;
+	background-position: 99% center;
+}	
+*/
+
+/*  Parte D  */
+/*
+p {
+	font-family: sans-serif;
+	padding: 20px;
+	background-color: yellow;
+	background-image: repeating-linear-gradient(to right, yellow, orange 25px, yellow 50px);
+}
+*/
+
+/*  Parte E  */
+/*
+p {
+	font-family: sans-serif;
+	padding: 20px;
+	background-color: yellow;
+	background-image: url(https://mdn.mozillademos.org/files/13026/fire-ball-icon.png);
+	background-repeat: no-repeat;
+}*/
+
+/*  PARTE F  */
+/*
+p {
+	font-family: sans-serif;
+	padding: 20px;
+	background-color: yellow;
+	background-image: url(https://mdn.mozillademos.org/files/13026/fire-ball-icon.png);
+	background-repeat: no-repeat;
+	background-position: 99% center;
+}
+*/
+
+/*  PARTE G  */
+/*
+p {
+	font-family: sans-serif;
+	padding: 20px;
+	background-color: yellow;
+	background: url(https://mdn.mozillademos.org/files/13026/fire-ball-icon.png) no-repeat 99% center,
+              linear-gradient(to bottom, yellow, #dddd00 50%, orange);
+}
+*/
+
+
+

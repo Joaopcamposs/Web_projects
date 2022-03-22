@@ -1,0 +1,21 @@
+html {
+    font-size: 10px;
+    line-height: 3rem;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+#delay {
+    font-size: 3rem;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 1s;
+/*    transition: font-size 4s 1s;*/
+}
+
+#delay:hover {
+    font-size: 6rem;
+}

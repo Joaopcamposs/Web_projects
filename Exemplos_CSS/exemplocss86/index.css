@@ -1,0 +1,15 @@
+.ryu {
+    width: 435px;
+    height: 272px;
+    background: url(ryu-sprite-demo.png);
+    animation: play 3s steps(45) infinite;
+}
+
+@keyframes play {
+    from {
+        background-position: 0px 0%;
+    }
+    to {
+        background-position: 0px 100%;
+    }
+}

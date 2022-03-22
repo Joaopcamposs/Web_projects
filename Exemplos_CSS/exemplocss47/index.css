@@ -1,0 +1,40 @@
+/*  PARTE A  */
+/*
+.wrapper {
+    display: grid;
+}
+*/
+
+/*  PARTE B  */
+/*
+.wrapper {
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+}
+*/
+
+/*  PARTE C  */
+/*
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+*/
+
+/*  PARTE D  */
+/*
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+*/
+
+/*  PARTE E  */
+/*
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 200px;
+}
+*/
+

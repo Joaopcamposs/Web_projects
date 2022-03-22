@@ -1,0 +1,43 @@
+/*  PARTE A  */
+.box {
+    display: inline-block;
+    background: lightblue;
+    width: 200px;
+    height: 200px;
+	position: relative;
+	animation: myframes 2s ease-in-out 0s infinite;
+/*
+    animation-direction: normal; reverse alternate alternate-reverse
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+*/
+}
+
+@keyframes myframes {
+	0% {
+		height: 200px;
+	}
+	50% {
+		width: 400px;
+	}
+	100% {
+		height: 600px;
+		background-color: orange;
+	}
+}
+
+/*  PARTE B  */
+/*
+@keyframes myframes {
+	0% {
+		height: 200px;
+	}
+	30%, 70% {
+		height: 400px;
+	}
+	100% {
+		height: 600px;
+		background-color: orange;
+	}
+}
+*/

@@ -1,0 +1,22 @@
+body {
+    width: 500px;
+    height: 1400px;
+    margin: 0 auto;
+}
+
+/*
+h1 {
+    position: fixed;
+    top: 0;
+    width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+*/
+
+/*
+p:nth-of-type(1) {
+	margin-top: 60px;
+}
+*/

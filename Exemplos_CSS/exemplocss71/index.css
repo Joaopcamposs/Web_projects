@@ -1,0 +1,19 @@
+/*  PARTE A  */
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    grid-column-gap: 20px;
+}
+
+div.content {
+    background-color: lightblue;
+}
+
+/*  PARTE B  */
+/*
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-column-gap: 20px;
+}
+*/
