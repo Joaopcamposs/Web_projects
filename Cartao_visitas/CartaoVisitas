@@ -1,0 +1,37 @@
+1) Ative o CSS na sua página HTML
+
+2) Calcule a especificidade dos quatro seletores
+.card article img
+.card footer
+.card header
+.card
+
+3) Você tem 4 corpos de regras e 4 seletores. Precisamos ligar o seletor correto na sua regra.
+
+3.1) Defina uma largura e altura, cor sólida de fundo e uma borda arredondada no container do cartão.
+
+3.2) Defina no header  um gradiente de background do mais claro (vermelho de fundo) para o mais escuro (combinando com o <article>), além de bordas arredondadas que se encaixem nas bordas arredondadas do cartão.
+
+3.3) Defina no footer  um gradiente de background do mais escuro (combinando com o <article>) para o mais claro (vermelho de fundo), além de bordas arredondadas que se encaixem nas bordas arredondadas do cartão.
+
+3.4) Faça com que a imagem flutue para a direita do texto e tenha uma altura máxima de 100%.
+
+4) Crie novas regras CSS:
+
+- Para definir tamanhos usando em preste atenção no tamanho da fonte definida no <html> e use-a como base: tamanho definido = 1em
+
+4.1) Escreva uma regra para o <header> e o <footer> (ao mesmo tempo), definindo a altura do conteúdo de 30px e padding de 10px em todos os lados, num total de altura igual a 50px. Expresse-as em ems.
+
+4.2) A margem padrão aplicada aos elementos <h2> e <p> pelo navegador interferem com nosso design então escreva uma regra que defina suas margens com 0.
+
+4.3) Para fazer com que a imagem pare de vazar do conteúdo principal do cartão (o elemento <article>) precisamos definir para ela uma altura específica. Defina a altura do <article> em 120px, expressa em ems. Defina também um background preto semi-transparente tornando o fundo mais escuro mas permitindo o vermelho aparecer.
+
+4.4) Escreva uma regra que defina um tamanho de fonte de 20px (expressa em ems) para o <h2> e uma altura de linha apropriada para colocá-lo no centro da caixa de conteúdo do <header>. Lembre-se que a altura da caixa do conteúdo deve ser 30px - isso lhe dá todos os números que você precisa para calcular a altura da linha.
+
+4.5) Escreva uma regra que dê ao <p> dentro do <footer> um tamanho de fonte de 15px (expresso em ems) e uma altura de linha apropriada para colocá-lo no centro da caixa de conteúdo do <footer>. Lembre-se que a altura da caixa do conteúdo deve ser 30px - isso lhe dá todos os números que você precisa para calcular a altura da linha.
+
+4.6) Escreva uma regra que defina o valor do padding do parágrafo dentro do <article> para que ele se alinhe com o <h2> e o parágrafo do <footer>. Defina também sua cor para que fique clara e fácil de ler. Defina também um tamanho de linha de maneira que seu conteúdo fique no centro do <article>.
+
+4.7) Altere o padding da direita da imagem de maneira que ela se afaste da borda do cartão.
+
+
